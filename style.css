@@ -606,22 +606,32 @@ body {
 /* ---------- Phones: bigger question section ---------- */
 
 @media (max-width: 600px) {
+  .app {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
   .question-card {
-    min-height: 50vh;
-    min-height: 50dvh;
+    min-height: 62vh;
+    min-height: 62dvh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 60px 22px 30px;
+    padding: 60px 20px 32px;
+    border-radius: 36px;
   }
 
   .question {
-    font-size: clamp(23px, 6.8vw, 28px);
-    margin-bottom: 28px;
+    font-size: clamp(25px, 7.2vw, 30px);
+    margin-bottom: 30px;
   }
 
+  /* Slightly smaller kitty so the bigger card still fits on one screen */
+  .hero-wrap .hero { width: 130px; }
+  .hero-wrap .hero-photo { width: 130px; height: 130px; }
+
   .answers {
-    --btn-scale: 1.15;
+    --btn-scale: 1.2;
     gap: 14px;
   }
 
