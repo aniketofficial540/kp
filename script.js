@@ -7,9 +7,9 @@ const CONFIG = {
   welcomeText: 'Dudu se galti ho gayi... aur Dudu bhot bhot sorry hai 🥺 Kuch questions ke answer dogi?',
 
   questions: [
-    'Bubu, dekho ye website kaisi lgi, maine tmhare liye banai hai. Kya tmhe ye acha lga?',
+    'Bubu, dekho ye sorry website kaisi lgi, maine tmhare liye banai hai. Kya tmhe ye acha lga?',
     'Dudu, jaada time nhi de paata hai ab pehle ki trh. Dudu ko maaf kr do iske liye',
-    'Kya bubu ko sorry website dekh ke acha lga, dudu ne bhot man se banaya hai',
+    'Dudu ne birthday pe story nahi laga paaya tha toh dudu ko saja dena pr baat krna mt chhorna bububu',
     'Bububu ko pta hai na ki dudu bhot pyaar krta hai bububu se apni',
     'Kya dudu ko chance milna chahiye apni glti sudharne ke liye?',
     'Kya Dudu tumhe sorry bolne ke liye ek cute si hug deserve karta hai?',
@@ -36,8 +36,8 @@ const CONFIG = {
   yesToasts: ['Yayyy! 🥰', 'Hehe, pata tha 💖', 'Dudu khush ho gaya! 😻', 'Awww thank youuu 🫶'],
 
   finalTitle: 'YAYYY! 💖',
-  finalSub: 'Pata tha meri Tikki maan jayegi 🥰',
-  finalMessage: 'Thank you Bubu 🫶 Dudu promise karta hai ki ab tumhe zyada time dega aur kabhi itna wait nahi karayega. Tum Dudu ki sabse favourite ho, hamesha. Love you sooo much 💗',
+  finalSub: 'Pata tha meri pyaari si tikki maan jayegi 🥰',
+  finalMessage: 'Thank you Bubu 🫶 Dudu promise karta hai ki ab tumhe zyada time dega aur kabhi itna wait nahi karayega. Tum Dudu ki pyaari si bubu ho aur dudu tmko hamesha bhot saara pyaar krega. Love you sooo much bchaa meraaa💗',
   finalSign: '— Tumhara Dudu 🎀',
   hugToast: 'Hug sent! Dudu ko mil gayi 🤗💞',
 };

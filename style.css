@@ -415,7 +415,7 @@ body {
 .answers[data-no="0"] .btn { min-width: 128px; }
 
 .yes {
-  font-size: min(var(--yes-size, 18px), 14vw);
+  font-size: min(calc(var(--yes-size, 18px) * var(--btn-scale, 1)), 14vw);
   padding: .55em 1.3em;
   max-width: 100%;
   white-space: nowrap;
@@ -433,7 +433,7 @@ body {
 }
 
 .no {
-  font-size: var(--no-size, 18px);
+  font-size: calc(var(--no-size, 18px) * var(--btn-scale, 1));
   padding: .55em 1.3em;
 }
 
@@ -601,6 +601,36 @@ body {
 .toast.show {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
+}
+
+/* ---------- Phones: bigger question section ---------- */
+
+@media (max-width: 600px) {
+  .question-card {
+    min-height: 50vh;
+    min-height: 50dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 22px 30px;
+  }
+
+  .question {
+    font-size: clamp(23px, 6.8vw, 28px);
+    margin-bottom: 28px;
+  }
+
+  .answers {
+    --btn-scale: 1.15;
+    gap: 14px;
+  }
+
+  .answers[data-no="0"] .btn { min-width: 140px; }
+
+  .question-card .hint {
+    align-self: center;
+    font-size: 14px;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

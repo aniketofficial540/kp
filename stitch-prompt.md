@@ -51,9 +51,9 @@ SCREEN 4 — FINAL CELEBRATION
 - Two buttons: "Send me a hug 🤗" and a smaller "Play again".
 
 QUESTIONS (one per question screen, in this order):
-1. [Bubu, dekho ye website kaisi lgi, maine tmhare liye banai hai. Kya tmhe ye acha lga?]
+1. [Bubu, dekho ye sorry website kaisi lgi, maine tmhare liye banai hai. Kya tmhe ye acha lga?]
 2. [Dudu, jaada time nhi de paata hai ab pehle ki trh. Dudu ko maaf kr do iske liye]
-3. [Kya bubu ko sorry website dekh ke acha lga, dudud ne bhot man se banaya hai]
+3. [Dudu ne birthday pe story nahi laga paaya tha toh dudu ko saja dena pr baat krna mt chhorna bububu]
 4. [Bububu ko pta hai na ki dudu bhot pyaar krta hai bububu se apni]
 5. [kya dudu ko chance milna chahiye apni glti sudharne ke liye?]
 5. [Kya Dudu tumhe sorry bolne ke liye ek cute si hug deserve karta hai?]
