@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Sorry Kitty 💗</title>
+  <meta name="description" content="Ek chhota sa sorry, sirf tumhare liye 🥺">
+  <meta property="og:title" content="Tikki, ek message hai tumhare liye 💌">
+  <meta property="og:description" content="Open karo na pleaseee 🥺">
+  <meta name="theme-color" content="#FFE4EC">
+  <link rel="icon" href="assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Pink background, floating kitties and hearts (filled in by script.js) -->
+  <div class="bg" id="bg" aria-hidden="true"></div>
+
+  <main class="app">
+    <!-- 1. Welcome -->
+    <section class="screen is-active" id="welcome">
+      <span class="chip">💌 Ek chhota sa sorry</span>
+      <h1 class="title">Heyyy <span class="name" id="herName">Tikki</span> 🥺</h1>
+      <p class="subtitle" id="welcomeText"></p>
+      <div class="card welcome-card">
+        <div class="hero" id="welcomeKitty"></div>
+      </div>
+      <button class="btn btn-primary btn-big" id="startBtn" type="button">Okayyy 💗</button>
+    </section>
+
+    <!-- 2. Questions -->
+    <section class="screen" id="quiz">
+      <div class="progress">
+        <span class="chip" id="progressLabel">Question 1</span>
+        <div class="hearts" id="progressHearts"></div>
+      </div>
+
+      <div class="hero-wrap">
+        <div class="bubble" id="kittyBubble"></div>
+        <div class="hero" id="heroKitty"></div>
+      </div>
+
+      <div class="card question-card" id="questionCard">
+        <h2 class="question" id="questionText"></h2>
+        <div class="answers" id="answers">
+          <button class="btn btn-primary yes" id="yesBtn" type="button">Yes 💖</button>
+          <button class="btn btn-ghost no" id="noBtn" type="button">No</button>
+        </div>
+        <p class="hint" id="hint"></p>
+      </div>
+    </section>
+
+    <!-- 3. Final celebration -->
+    <section class="screen" id="final">
+      <span class="chip">🎉 Mission Forgiveness: Complete ✨</span>
+      <h1 class="title big" id="finalTitle"></h1>
+      <p class="subtitle" id="finalSub"></p>
+      <div class="card photo-card">
+        <img src="assets/dancing-kitties.jpg" alt="Three kittens in party hats dancing">
+      </div>
+      <div class="card message-card">
+        <p id="finalMessage"></p>
+        <p class="sign" id="finalSign"></p>
+      </div>
+      <button class="btn btn-primary btn-big" id="hugBtn" type="button">Send me a hug 🤗</button>
+      <button class="btn btn-ghost" id="againBtn" type="button">Play again 🔁</button>
+    </section>
+  </main>
+
+  <!-- When she keeps saying No, this giant YES takes over the whole screen -->
+  <button class="yes-takeover" id="yesTakeover" type="button" hidden>
+    <span class="yt-kitty" id="takeoverKitty"></span>
+    <span class="yt-main">YESSS 💖</span>
+    <span class="yt-sub">ab koi option nahi bacha 😼</span>
+  </button>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
